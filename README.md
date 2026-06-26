@@ -80,6 +80,3 @@ python scripts/upload_to_s3.py --dataset data/generated/inspection_v1 --bucket s
 python scripts/launch_sagemaker_training.py --config configs/aws.example.yaml
 ```
 
-## Notes
-
-Isaac Sim APIs are imported lazily so the repository remains testable in standard Python environments. The `isaac` mode raises a clear environment error when Isaac Sim modules are unavailable.
