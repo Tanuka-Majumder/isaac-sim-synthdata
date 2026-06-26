@@ -1,0 +1,10 @@
+dataset:
+  local_root: outputs/dataset
+  s3_bucket: surface-defect-inspection-datasets
+  s3_prefix: inspection/surface_defect_inspection
+
+sagemaker:
+  role_arn: arn:aws:iam::123456789012:role/SageMakerExecutionRole
+  instance_type: ml.g4dn.xlarge
+  instance_count: 1
+  output_path: s3://surface-defect-inspection-datasets/inspection/model-artifacts
