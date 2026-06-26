@@ -12,6 +12,10 @@ The codebase is organized around a consistent dataset contract so the same gener
 - Command-line workflows for generation, training, evaluation, S3 upload, and SageMaker launch
 - Testable Python package structure with GitHub Actions CI
 
+## Tech Stack
+
+Python, PyTorch, NVIDIA Isaac Sim, Isaac Replicator, NumPy, AWS S3, SageMaker, Pytest
+
 ## Execution Modes
 
 - `procedural`: generates deterministic RGB/depth/mask samples with the same dataset contract used by the Isaac Sim export path. This is useful for local development, CI, and pipeline validation.
