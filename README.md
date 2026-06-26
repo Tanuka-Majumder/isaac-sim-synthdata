@@ -33,7 +33,6 @@ Generated datasets, trained model weights, local environments, and cache files a
 
 - [Architecture](docs/architecture.md)
 - [Technical overview](docs/technical_overview.md)
-- [GitHub readiness checklist](docs/github_readiness.md)
 
 ## Quick Start
 
@@ -114,4 +113,3 @@ python scripts/upload_to_s3.py --dataset data/generated/inspection_v1 --bucket s
 ```powershell
 python scripts/launch_sagemaker_training.py --config configs/aws.example.yaml
 ```
-
